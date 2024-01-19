@@ -224,6 +224,11 @@ html{
     margin: 0;
     
 }
+#vjestine .kartice{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 #vjestine .kartica img{
     width: 120px;
@@ -328,3 +333,145 @@ html{
     margin-right: 10px;
     padding: 0;
 }
+
+@media only screen and (max-width: 767px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .navbar{
+        font-size: 15px;
+    }
+
+   .navbar ul{
+    padding:0;
+   }
+
+
+   #Home{
+    font-size: 25px;
+   }
+    
+    .red {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    #galerija img{
+        width: 180px;
+        height: 350px;
+    }
+
+    
+    #about{
+        font-size: 15px;
+        height: 700px;
+    }
+    
+    .redovi {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 5%;
+    }
+    .slika{
+        width: 30%;
+    }
+    .slika img{
+        width: 150px;
+        padding-top: 100px;
+    }
+
+   
+    #projekti .row{
+        font-size: 15px;
+    }
+
+    #projekti img{
+        width: 45%;
+        height: 300px;
+    }
+    
+    #vjestine{
+        height: 900px;
+        font-size: 10px;
+    }
+    #vjestine .kartica{
+        width: 20%;
+        height: 650px;
+        font-size: 15px;
+        text-align: left;
+    }
+    #vjestine .kartica img{
+        width: 100px;
+    }
+    #vjestine .kartice{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #vjestine h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    #about .slika img{
+        width:200px; ;
+    }
+
+    #galerija img{
+        width: 180px;
+        height: 350px;
+    }
+    #Home{
+        font-size: 30px;
+    }
+    .navbar{
+        font-size: 15px;
+    }
+
+    #about{
+        font-size: 18px;
+    }
+
+    #about img{
+        padding-top: 50px;
+    }
+
+    #projekti .row{
+        font-size: 15px;
+    }
+    #projekti img{
+        width: 45%;
+        height: 300px;
+    }
+    #vjestine{
+        height: 900px;
+        font-size: 10px;
+    }
+
+    #vjestine .kartica{
+        width: 20%;
+        height: 650px;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    #vjestinenaslov h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .footer{
+        font-size: 20px;
+    }
+    
+}
+
+
