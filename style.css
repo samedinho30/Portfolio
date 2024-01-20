@@ -359,6 +359,11 @@ html{
         align-items: center;
         
     }
+
+    #galerija h1{
+        font-size: 40px;
+    }
+
     #galerija img{
         width: 180px;
         height: 350px;
@@ -367,6 +372,8 @@ html{
     #about{
         font-size: 15px;
         height: 700px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     
     .redovi {
@@ -382,6 +389,14 @@ html{
         padding-top: 100px;
     }
 
+    #naslovprojekti{
+        font-size: 40px;
+        padding-top: 50px;
+    }
+
+    #projekti{
+        height: 1700px;
+    }
    
     #projekti .row{
         font-size: 15px;
@@ -394,8 +409,12 @@ html{
     
     #vjestine{
         height: 900px;
-        font-size: 10px;
     }
+
+    #vjestine #vjestinenaslov{
+        font-size: 40px;
+    }
+
     #vjestine .kartica{
         width: 20%;
         height: 650px;
@@ -414,13 +433,19 @@ html{
         font-size: 20px;
         text-align: center;
     }
+
+    #contact #kontakt{
+        font-size: 40px;
+        padding-top: 60px;
+    }
+
     .footer{
         font-size: 15px;
     }
     
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px){
+@media only screen and (min-width: 767px) and (max-width: 1024px){
     #about .slika img{
         width:200px; ;
     }
@@ -429,8 +454,13 @@ html{
         width: 180px;
         height: 350px;
     }
+
+    #galerija .red{
+        width: 100%;
+    }
+
     #Home{
-        font-size: 30px;
+        font-size: 25px;
     }
     .navbar{
         font-size: 15px;
@@ -441,7 +471,12 @@ html{
     }
 
     #about img{
-        padding-top: 50px;
+        padding-top: 100px;
+    }
+
+    #naslovprojekti{
+        margin: 0;
+       
     }
 
     #projekti .row{
@@ -466,6 +501,10 @@ html{
     #vjestinenaslov h1{
         font-size: 20px;
         text-align: center;
+    }
+
+    #contact #kontakt{
+        padding-top: 60px;
     }
 
     .footer{
