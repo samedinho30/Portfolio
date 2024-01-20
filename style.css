@@ -332,7 +332,126 @@ html{
     padding: 0;
 }
 
-@media only screen and (max-width: 767px){
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    
+    #Home{
+        font-size: 30px;
+    }
+
+    #about img{
+        width: 250px;
+        padding-top: 50px;
+    }
+
+    #galerija img{
+        width: 200px;
+    }
+
+    #projekti{
+        height: 1800px;
+    }
+
+    #vjestine{
+        height: 1000px;
+    }
+    
+    #vjestine .kartica{
+        height: 600px;
+    }
+
+ 
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+       .navbar{
+        font-size: 11px;
+        flex-wrap: wrap;
+       }
+       .navbar ul{
+        padding: 0;
+       }
+
+       #Home{
+        font-size: 22px;
+       }
+
+       #about{
+        font-size: 13px;
+        height: 700px;
+       }
+
+       #about img{
+        width: 130px;
+        padding-top: 100px;
+       }
+
+       #projekti{
+        height: 1800px;
+       }
+
+       .rownaslov{
+        font-size: 13px;
+       }
+
+       #vjestine{
+        height: 1550px;
+       }
+       #vjestine .kartice{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #vjestine .kartica{
+        width: 300px;
+        height: 400px;
+        font-size: 15px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    #vjestine .kartica img{
+        width: 70px;
+    }
+
+    #galerija{
+        height: 1800px;
+    }
+
+    #galerija .red{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #galerija img{
+        width: 250px;
+        height: 200px;
+    }
+
+    .footer{
+        font-size: 15px;
+    }
+
+    #posalji{
+        width: 20%;
+    }
+    .input{
+        width: 200px;
+    }
+    #msg{
+        width: 200px;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
     body{
         margin: 0;
         padding: 0;
@@ -340,12 +459,18 @@ html{
 
 
     .navbar{
-        font-size: 13px;
+        font-size:11px;
+        flex-wrap: wrap;
+    }
+
+    .navbar ul{
+        padding: 0;
+        padding-left: 5px;
     }
 
 
    #Home{
-    font-size: 25px;
+    font-size: 18px;
    }
     
     .red {
@@ -361,17 +486,32 @@ html{
     }
 
     #galerija img{
-        width: 180px;
+        width: 120px;
         height: 350px;
     }
 
     #about{
         font-size: 15px;
-        height: 700px;
+        height: 900px;
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    #about .tekst{
+        padding: 0;
+    }
+
     
+    #vjestine{
+        height: 1000px;
+    }
+    #vjestine .kartice{
+        display: flex;
+    }
+
+    #vjestine .kartica{
+        width: 5%;
+    }
+
     .redovi {
         display: flex;
         justify-content: space-around;
@@ -391,37 +531,46 @@ html{
     }
 
     #projekti{
-        height: 1800px;
+        height: 2100px;
+    }
+
+    #projekti .redovi{
+        width: 100%;
+        padding: 0;
     }
    
     #projekti .row{
         font-size: 15px;
+        display: flex;
     }
 
     #projekti img{
-        width: 45%;
+        width: 200px;
         height: 300px;
     }
     
     #vjestine{
-        height: 900px;
+        height: 1500px;
     }
 
     #vjestine #vjestinenaslov{
         font-size: 40px;
+        margin: 0;
     }
 
     #vjestine .kartica{
-        width: 20%;
-        height: 650px;
+        width: 300px;
+        height: 400px;
         font-size: 15px;
         text-align: left;
+        margin-bottom: 30px;
     }
     #vjestine .kartica img{
         width: 100px;
     }
     #vjestine .kartice{
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
@@ -438,10 +587,19 @@ html{
     .footer{
         font-size: 15px;
     }
-    
+
+    #posalji{
+        width: 20%;
+    }
+    .input{
+        width: 200px;
+    }
+    #msg{
+        width: 200px;
+    }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1024px){
+@media only screen and (min-width: 768px) and (max-width: 1024px){
     #about .slika img{
         width:200px; ;
     }
@@ -506,6 +664,9 @@ html{
     .footer{
         font-size: 20px;
     }
+
+
+ 
     
 }
 
