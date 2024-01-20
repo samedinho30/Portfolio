@@ -340,12 +340,8 @@ html{
 
 
     .navbar{
-        font-size: 15px;
+        font-size: 13px;
     }
-
-   .navbar ul{
-    padding:0;
-   }
 
 
    #Home{
@@ -395,7 +391,7 @@ html{
     }
 
     #projekti{
-        height: 1700px;
+        height: 1800px;
     }
    
     #projekti .row{
