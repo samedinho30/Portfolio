@@ -332,7 +332,145 @@ html{
     padding: 0;
 }
 
-@media only screen and (max-width: 767px){
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+      
+    .navbar{
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+       
+       .navbar ul{
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+       }
+       .navbar h3{
+        margin: 0;
+       }
+       .navbar ul li a{
+        padding: 5px;
+       }
+
+       #Home{
+        font-size: 18px;
+        height: 450px;
+       }
+
+       #Home .mreze img{
+        width: 15px;
+       }
+
+       #about{
+        font-size: 10px;
+        height: 700px;
+       }
+
+       #about img{
+        width: 80px;
+        padding-top: 100px;
+       }
+
+       #about .tekst{
+        padding: 0;
+       }
+
+       #projekti{
+        height: 1000px;
+       }
+       #projekti #naslovprojekti{
+        font-size: 40px;
+        margin: 0;
+       }
+       #projekti img{
+        height: 200px;
+       }
+
+       #projekti .row{
+        padding: 0;
+       }
+
+       .rownaslov{
+        font-size: 8px;
+       }
+
+       #vjestine{
+        height: 1550px;
+       }
+
+       #vjestinenaslov{
+        font-size: 40px;
+        margin: 0;
+       }
+
+       #vjestine .kartice{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #vjestine .kartica{
+        width: 150px;
+        height: 400px;
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #vjestine .kartica img{
+        width: 70px;
+    }
+
+    #galerija{
+        height: 1800px;
+    }
+
+    #galerija .red{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #galerija img{
+        width: 250px;
+        height: 200px;
+    }
+
+    #galerija h1{
+        font-size: 40px;
+    }
+
+    #kontakt{
+        font-size: 40px;
+    }
+
+    .footer{
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+    }
+    .footer img{
+        width: 35px;
+    }
+
+    #posalji{
+        width: 25%;
+    }
+    .input{
+        width: 200px;
+    }
+    #msg{
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
     body{
         margin: 0;
         padding: 0;
@@ -340,12 +478,18 @@ html{
 
 
     .navbar{
-        font-size: 13px;
+        font-size:11px;
+        flex-wrap: wrap;
+    }
+
+    .navbar ul{
+        padding: 0;
+        padding-left: 5px;
     }
 
 
    #Home{
-    font-size: 25px;
+    font-size: 18px;
    }
     
     .red {
@@ -361,17 +505,21 @@ html{
     }
 
     #galerija img{
-        width: 180px;
+        width: 120px;
         height: 350px;
     }
 
     #about{
         font-size: 15px;
-        height: 700px;
+        height: 900px;
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    
+    #about .tekst{
+        padding: 0;
+    }
+
+
     .redovi {
         display: flex;
         justify-content: space-around;
@@ -387,41 +535,54 @@ html{
 
     #naslovprojekti{
         font-size: 40px;
-        padding-top: 50px;
+        margin: 0;
     }
 
     #projekti{
-        height: 1800px;
+        height: 1600px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 3% 5%;
+    }
+
+    #projekti .redovi{
+        width: 100%;
+        padding: 0;
     }
    
     #projekti .row{
-        font-size: 15px;
+        font-size: 13px;
+        display: flex;
     }
 
     #projekti img{
-        width: 45%;
+        width: 200px;
         height: 300px;
     }
     
     #vjestine{
-        height: 900px;
+        height: 1500px;
+        display: f;
     }
 
     #vjestine #vjestinenaslov{
         font-size: 40px;
+        margin: 0;
     }
 
     #vjestine .kartica{
-        width: 20%;
-        height: 650px;
+        width: 300px;
+        height: 400px;
         font-size: 15px;
         text-align: left;
+        margin-bottom: 30px;
     }
     #vjestine .kartica img{
         width: 100px;
     }
     #vjestine .kartice{
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
@@ -438,10 +599,19 @@ html{
     .footer{
         font-size: 15px;
     }
-    
+
+    #posalji{
+        width: 20%;
+    }
+    .input{
+        width: 200px;
+    }
+    #msg{
+        width: 200px;
+    }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1024px){
+@media only screen and (min-width: 769px) and (max-width: 1024px){
     #about .slika img{
         width:200px; ;
     }
@@ -506,7 +676,37 @@ html{
     .footer{
         font-size: 20px;
     }
-    
+
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    
+    #Home{
+        font-size: 30px;
+    }
+
+    #about img{
+        width: 250px;
+        padding-top: 50px;
+    }
+
+    #galerija img{
+        width: 200px;
+    }
+
+    #projekti{
+        height: 1800px;
+    }
+
+    #vjestine{
+        height: 1000px;
+    }
+    
+    #vjestine .kartica{
+        height: 600px;
+        text-align: center;
+    }
+
+ 
+}
 
